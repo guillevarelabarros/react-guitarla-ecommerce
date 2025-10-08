@@ -1,107 +1,107 @@
-# 🎸 GuitarLA - React + TypeScript + useReducer
+# 🎸 GuitarLA – E-Commerce App
 
-A modern e-commerce guitar catalog built with **React**, **TypeScript**, and
-**Material UI**, featuring a dynamic shopping cart powered by `useReducer`. This
-project demonstrates responsive UI design, state management, theming with
-light/dark mode, and scalable architecture with reusable components.
+![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.2.2-3178C6?logo=typescript&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material%20UI-v5-007FFF?logo=mui&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?logo=vite&logoColor=white)
+![useReducer](https://img.shields.io/badge/State%20Management-useReducer-4CAF50?logo=react&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue)
 
-![Preview](public/img/screen1.png)
+---
+
+**Live Demo:**  
+[https://guitarla-ecommerce-app.netlify.app](https://guitarla-ecommerce-app.netlify.app)
+
+A modern and responsive e-commerce web application for guitar sales, built
+with  
+**React**, **TypeScript**, and **Material UI**.  
+Features a dynamic shopping cart powered by **useReducer**, theme toggling  
+(light/dark), and persistent cart storage using **localStorage**.  
+Designed with reusable components, clean architecture, and responsive layouts  
+for all devices.
 
 ---
 
 ## 🚀 Features
 
-- 🛒 **Add/Remove guitars from cart**
-- 🔢 **Increase/Decrease quantity**
-- 🎨 **Light/Dark mode toggle**
-- ⚛️ **State managed with useReducer**
-- 🧱 **Built with Material UI**
-- 💾 **Cart persisted in localStorage**
-- 📱 **Fully responsive design**
-- 🧠 **Strictly typed with TypeScript**
+✅ Add and remove guitars from the cart  
+✅ Increase or decrease item quantity with limits  
+✅ Real-time cart total calculation  
+✅ Persistent cart using localStorage  
+✅ Light/Dark theme toggle with MUI  
+✅ Responsive Material UI components  
+✅ Accessible keyboard-friendly design  
+✅ Strongly typed with TypeScript for scalability
 
 ---
 
-## 🖥️ Tech Stack
+## 🧠 Tech Stack
 
-- **React** 18
-- **TypeScript**
-- **Material UI (MUI)**
-- **useReducer for state management**
-- **CSS modules**
-- **Vite** for blazing-fast builds
-
----
-
-## 📂 Project Structure
-
-├── public │ └── img/ # Static assets (guitars, logo, screenshots) ├── src │ ├──
-components/ # Reusable UI components (Header, Guitar card) │ ├── data/ # Static
-guitar data (db.ts) │ ├── reducers/ # Cart reducer logic │ ├── types/ #
-TypeScript types (Guitar, CartItem) │ ├── App.tsx # Main component with cart
-logic │ ├── main.tsx # ThemeProvider and app mounting │ ├── theme.ts #
-Light/Dark mode configuration │ └── index.css # Custom styles
+- ⚛️ **React 18** + **TypeScript**
+- 🎨 **Material UI (MUI)** for styling and theming
+- 🔄 **useReducer** for global state management
+- 💾 **localStorage** for persistence
+- ⚡ **Vite** for fast builds and hot reloading
+- 🧱 **Custom CSS** for animations and layout enhancements
 
 ---
 
-## 🧪 Demo
+## 🗂️ Project Structure
 
-> Try the live version (optional):  
-> 🔗
-> [https://your-deployment-url.vercel.app](https://guitarla-ecommerce-app.netlify.app/)
+```
+src/
+├── components/ # UI components (Header, GuitarCard)
+├── data/ # Static guitar catalog (db.ts)
+├── reducers/ # Cart reducer logic (add, remove, update)
+├── types/ # TypeScript interfaces (Guitar, CartItem)
+├── theme.ts # MUI theme configuration (light/dark)
+├── App.tsx # Main application logic
+├── main.tsx # Theme provider and app entry point
+└── index.css # Custom global styles and animations
 
----
+```
 
 ## 📸 Screenshots
 
-### 🖼️ Main UI
+### 🖼️ Product Catalog
 
-![Main screen](public/img/screen1.png)
+![Catalog Screen](public/img/screen1.png)
 
-### 🧺 Cart Interaction
+### 🛒 Shopping Cart
 
-![Cart screen](public/img/screen2.png)
-
----
-
-## 🧠 What I learned
-
-- How to build reusable and scalable components in React with TypeScript
-- Applying the `useReducer` pattern for complex state management
-- Creating responsive and theme-aware UI with Material UI
-- Persisting application state via `localStorage`
-- Structuring a project for real-world maintainability
+![Cart Screen](public/img/screen2.png)
 
 ---
 
-## 💡 Bonus
+## 💡 What I Learned
 
-- Custom gradient headers with `WebkitTextFillColor: transparent`
-- Animations using pure CSS (`@keyframes`)
-- Fully accessible and keyboard-navigable components
-
----
-
-## 🧑‍💻 Author
-
-**Guille Varela Barros** – [LinkedIn](www.linkedin.com/in/guillevarelabarros) |
-[Github](https://github.com/guillevarelabarros)
-
-If you liked this project, please ⭐ it and feel free to connect!
+- Implemented **state management with useReducer** for scalable e-commerce
+  logic.
+- Created **reusable and type-safe components** in React with TypeScript.
+- Applied **Material UI theming** with persistent light/dark mode.
+- Built **responsive layouts** without external frameworks.
+- Managed **localStorage state synchronization** for cart persistence.
 
 ---
 
-## 📦 Installation & Setup
+## 📦 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/guillevarelabarros/guitarla-ecommerce-app.git
-cd guitarla-ts-usereducer
+git clone https://github.com/guillevarelabarros/react-guitarla-ecommerce.git
+cd react-guitarla-ecommerce
 
 # Install dependencies
 yarn install
 
 # Start development server
 yarn dev
-
 ```
+
+## 👨‍💻 Author
+
+Guille Varela Barros 🔗 LinkedIn
+
+💻 GitHub
+
+“Clean design meets clean code — every string counts 🎶”
