@@ -7,10 +7,7 @@
 ![useReducer](https://img.shields.io/badge/State%20Management-useReducer-4CAF50?logo=react&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
----
-
-**Live Demo:**  
-[https://guitarla-ecommerce-app.netlify.app](https://guitarla-ecommerce-app.netlify.app)
+## 🧠 About the Project
 
 A modern and responsive e-commerce web application for guitar sales, built
 with  
@@ -19,6 +16,30 @@ Features a dynamic shopping cart powered by **useReducer**, theme toggling
 (light/dark), and persistent cart storage using **localStorage**.  
 Designed with reusable components, clean architecture, and responsive layouts  
 for all devices.
+
+---
+
+## 🎥 Demo Video
+
+**Live Demo:**
+
+[👉 Watch the Demo](https://guitarla-ecommerce-app.netlify.app)
+
+---
+
+## 📸 Screenshots
+
+### 🖼️ Product Catalog
+
+![Catalog Screen](public/img/screen1.png)
+
+### 🖼️ Product Catalog - 2
+
+![Catalog Screen](public/img/screen2.png)
+
+### 🛒 Shopping Cart
+
+![Cart Screen](public/img/screen3.png)
 
 ---
 
@@ -61,16 +82,6 @@ src/
 
 ```
 
-## 📸 Screenshots
-
-### 🖼️ Product Catalog
-
-![Catalog Screen](public/img/screen1.png)
-
-### 🛒 Shopping Cart
-
-![Cart Screen](public/img/screen2.png)
-
 ---
 
 ## 💡 What I Learned
@@ -100,8 +111,16 @@ yarn dev
 
 ## 👨‍💻 Author
 
-Guille Varela Barros 🔗 LinkedIn
+Guillermo Ignacio Varela Barros
 
-💻 GitHub
+- 🔗 LinkedIn: https://www.linkedin.com/in/guillevarelabarros
+
+- 💻 GitHub: https://github.com/guillevarelabarros
+
+## 🔗 Useful Links
+
+📹 Demo: https://guitarla-ecommerce-app.netlify.app
+
+💻 Repository: https://github.com/guillevarelabarros/react-guitarla-ecommerce
 
 “Clean design meets clean code — every string counts 🎶”
